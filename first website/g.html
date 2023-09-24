@@ -1,0 +1,23 @@
+<html>
+<head>
+  <title>Number guessing game</title>
+  <link rel="stylesheet" href="g.css">
+</head>
+<body>
+<center>
+  <div id="go"><h1>Number guessing game</h1><div id="bg">
+<p if="info"></p>
+  <p id="guesses"></p>
+ <p id="lowOrHi"></p>
+  <p id="lastResult">Instruction :<br/>Guess the number i have selected between 0-100.<br/>i shall represent selected number  as 'N'.<br/>i will give you hints after first guess<br/>(if you are using phone zoom back after each try to see hint).<br/>let's go...</p>
+ <p id="end"></p>
+  <div class="form"><form>
+    <label id="q"for="guessField">Enter your guess: </label><input type="text" size="30" placeholder="(1-100)" id="guessField" required maxlength="3"autofocus  >
+   <button id="guessSubmit">Try</button></div>
+   </div><br/></form>
+<a id="retry" href="g.html"> Retry </a>
+<a id="leave" href="e.html"> Next </a>
+<script src="g.js" type="text/javascript"></script>
+</body>
+
+</html>

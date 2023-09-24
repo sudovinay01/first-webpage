@@ -1,0 +1,52 @@
+@keyframes bgcolor {
+    0% {
+        background-color: red
+    }
+
+    20% {
+        background-color: orangered
+    }
+
+    40% {
+        background-color: yellow
+    }
+
+    60% {
+        background-color: lime
+    }
+
+    100% {
+        background-color: aqua
+    }
+}
+
+body {
+    -webkit-animation: bgcolor 10s infinite;
+    animation: bgcolor 5s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+.circle {
+  font-family: "Comic Sans MS", "Comic Sans",monospace ;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  font-size: 50px;
+  color: #fff;
+  line-height: 500px;
+  text-align: center;
+  background: #000;
+  margin:0 auto;
+   box-shadow: 0 0 15px 10px #141414;
+}
+#c2{
+   width: 600px;
+  height: 600px;
+  border-radius: 50%;
+ line-height: 500px;
+  text-align: center;
+  background: white;
+  margin:0 auto;
+   box-shadow: 0 0 15px 10px #414141;
+}
+

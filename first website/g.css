@@ -1,0 +1,116 @@
+@keyframes bgcolor {
+    0% {
+        background-color: white
+    }
+
+    20% {
+        background-color: orange
+    }
+
+    40% {
+        background-color: yellow
+    }
+
+    60% {
+        background-color: lime
+    }
+
+    100% {
+        background-color: aqua
+    }
+}
+
+body {
+    -webkit-animation: bgcolor 10s infinite;
+    animation: bgcolor 5s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+.guessField{
+border: 10px solid white;
+ background-color: white;
+border-radius: 10%;
+
+}
+
+#bg{
+border: 4px solid white;  
+text-align: center;
+border-radius: 10%;
+box-shadow: 0 0 15px 10px #141414;
+
+padding:40px;
+}
+#q
+{
+color:brown;
+}
+#guessSubmit{
+color:white;
+  font-family: "Comic Sans MS", "Comic Sans";
+  border-radius: 7px;
+  border: 1px solid white;  
+  color: white;
+ background-color:black;
+  text-align: center;
+  font-size: 28px;
+  padding: 2px;
+  width: 200px;
+hight:100px
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+#go{
+ font-family: "Comic Sans MS", "Comic Sans";
+font-size:200%;
+}
+#guesses{
+color:blue
+}
+#lowOrHi{
+color:red;
+}
+#retry{
+ font-family: "Comic Sans MS", "Comic Sans" ;
+ color:navy;
+  border-radius: 7px;
+  border: 5px solid navy; 
+padding:4px; 
+margin: 0px 20px;
+box-shadow: 0 0 15px 10px #141414;
+}
+#leave{
+ font-family: "Comic Sans MS", "Comic Sans" ;
+ color:gray;
+  border-radius: 7px;
+  border: 5px solid gray;
+padding:4px; 
+margin: 0px 20px;
+box-shadow: 0 0 15px 10px #141414;
+}
